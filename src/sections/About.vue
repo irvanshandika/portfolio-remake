@@ -19,7 +19,7 @@
                 <div id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1" class="bgimage">
                   <img
                     fetchpriority="low"
-                    class="shadow-xl rounded-xl shadow-gray-900/[.2]"
+                    class="block shadow-xl rounded-xl shadow-gray-900/[.2]"
                     src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
                     alt="Image Description" />
                 </div>
