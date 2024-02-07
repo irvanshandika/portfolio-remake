@@ -20,7 +20,7 @@ export default {
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-500 dark:text-gray-100 font-medium">
               <li class="mb-4">
                 <a href="https://flowbite.com/" class="hover:underline decoration-blue-500" target="_blank">Flowbite</a>
               </li>
@@ -34,7 +34,7 @@ export default {
           </div>
           <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+            <ul class="text-gray-500 dark:text-gray-100 font-medium">
               <li class="mb-4">
                 <a href="https://github.com/irvanshandika/" class="hover:underline decoration-blue-500" target="_blank">Github</a>
               </li>
@@ -50,7 +50,7 @@ export default {
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-center">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-100">
           <span class="font-roboto">©</span> {{ years }} <a href="/" class="hover:underline decoration-blue-500" target="_blank">Muhammad Irvan Shandika</a>. All Rights Reserved.
         </span>
       </div>
