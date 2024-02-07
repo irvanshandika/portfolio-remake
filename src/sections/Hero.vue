@@ -7,13 +7,13 @@
         </h1>
         <p class="max-w-2xl mb-6 font-semibold lg:text-left text-center text-gray-600 dark:text-white lg:mb-8 md:text-lg lg:text-xl">Frontend Developer Indonesia</p>
         <div class="flex mt-4 sm:mt-0 lg:justify-start justify-center">
-          <a href="https://www.facebook.com/shandika.irvan/" class="text-gray-900 hover:text-gray-500 ms-5 dark:text-gray-100 dark:hover:text-gray-400" target="_blank">
+          <a href="https://www.facebook.com/shandika.irvan/" class="text-gray-900 hover:text-gray-500 ms-5 dark:text-gray-100 dark:hover:text-gray-400" target="_blank" aria-label="Cek lebih lanjut media sosial saya">
             <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
               <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd" />
             </svg>
             <span class="sr-only">Facebook</span>
           </a>
-          <a href="https://github.com/irvanshandika" class="text-gray-900 hover:text-gray-500 ms-5 dark:text-gray-100 dark:hover:text-gray-400" target="_blank">
+          <a href="https://github.com/irvanshandika" class="text-gray-900 hover:text-gray-500 ms-5 dark:text-gray-100 dark:hover:text-gray-400" target="_blank" aria-label="Cek lebih lanjut media sosial saya">
             <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
               <path
                 fill-rule="evenodd"
@@ -22,7 +22,7 @@
             </svg>
             <span class="sr-only">GitHub account</span>
           </a>
-          <a href="https://www.linkedin.com/in/muhammad-irvan-shandika/" class="text-gray-900 hover:text-gray-500 ms-5 dark:text-gray-100 dark:hover:text-gray-400" target="_blank">
+          <a href="https://www.linkedin.com/in/muhammad-irvan-shandika/" class="text-gray-900 hover:text-gray-500 ms-5 dark:text-gray-100 dark:hover:text-gray-400" target="_blank" aria-label="Cek lebih lanjut media sosial saya">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 448 512">
               <path
                 fill="currentColor"
@@ -30,7 +30,7 @@
             </svg>
             <span class="sr-only">LinkedIn</span>
           </a>
-          <a href="https://www.instagram.com/irvan_shandika/" class="text-gray-900 hover:text-gray-500 ms-5 dark:text-gray-100 dark:hover:text-gray-400" target="_blank">
+          <a href="https://www.instagram.com/irvan_shandika/" class="text-gray-900 hover:text-gray-500 ms-5 dark:text-gray-100 dark:hover:text-gray-400" target="_blank" aria-label="Cek lebih lanjut media sosial saya">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 24 24">
               <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                 <path stroke-dasharray="66" stroke-dashoffset="66" d="M12 3H8C5.23858 3 3 5.23858 3 8V16C3 18.7614 5.23858 21 8 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3z">
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="flex justify-center lg:mt-0 lg:col-span-5 lg:flex order-1 lg:order-2">
-        <img src="https://irvanshandika.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffoto.4861502a.jpg&w=384&q=75" class="rounded-full lg:w-[330px] w-[200px] lg:h-[330px] h-[200px]" alt="mockup" />
+        <img fetchpriority="low" src="https://irvanshandika.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffoto.4861502a.jpg&w=384&q=75" class="rounded-full lg:w-[330px] w-[200px] lg:h-[330px] h-[200px]" alt="mockup" />
       </div>
     </div>
   </section>

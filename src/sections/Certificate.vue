@@ -28,6 +28,7 @@ export default {
           imageUrl: "https://res.cloudinary.com/dszhlpm81/image/upload/v1704006766/assets/UFPMOvuUtfuMxUpG2yy%2BnF743hBOeLEzqjNEDiHixcQ%3D/Screenshot_2023-12-31_141213_uivn8g.png",
           description: "This is the first certificate I got. By attending training from AMIKOM campus, namely AMCC Web Programming from the Backend Programming Division.",
           class: "lg:w-[500px] w-[200px]",
+          alt: "First Certificate",
         },
         {
           title: "Junior Web Developer by KOMINFO",
@@ -35,6 +36,7 @@ export default {
           description:
             "And this is the second certificate that I got during the training organized by KEMKOMINFO called Junior Web Developer in the Frontend Web Developer division. Which uses the frontend using the PHP language and uses the MySQL database.",
           class: "lg:w-[998px] w-[250px]",
+          alt: "Second Certificate",
         },
         {
           title: "AMCC Frontend Developer Intermediate",
@@ -42,6 +44,7 @@ export default {
           description:
             "And this is the third certificate after I participated in the Mini Bootcamp activity from the campus, namely AMCC Web Programming Intermediate Class. Which learned about the React JS framework and learned the REST API using the API from FAKE STORE.",
           class: "lg:w-[500px] w-[200px]",
+          alt: "Third Certificate",
         },
       ],
     };
