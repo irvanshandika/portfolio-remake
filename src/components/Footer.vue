@@ -50,7 +50,7 @@ export default {
       </div>
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-center">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-100">
+        <span class="text-sm sm:text-center text-gray-950 dark:text-white">
           <span class="font-roboto">©</span> {{ years }} <a href="/" class="hover:underline decoration-blue-500 text-gray-950 dark:text-white" target="_blank">Muhammad Irvan Shandika</a>. All Rights Reserved.
         </span>
       </div>
