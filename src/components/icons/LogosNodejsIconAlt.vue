@@ -1,5 +1,5 @@
 <template>
-  <svg xmlns="http://www.w3.org/2000/svg" width="1.64em" height="1em" viewBox="0 0 512 314">
+  <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="1em" viewBox="0 0 512 314">
     <defs>
       <linearGradient id="logosNodejs0" x1="68.188%" x2="27.823%" y1="17.487%" y2="89.755%">
         <stop offset="0%" stopColor="#41873F"></stop>

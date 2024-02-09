@@ -90,26 +90,28 @@ export default {
 </script>
 
 <template>
-  <div class="block max-w-7xl py-28 mx-auto lg:text-xl">
-    <h2 class="text-2xl font-bold mb-4 text-center text-blue-500">My Project</h2>
-    <p class="text-center dark:text-white">Here is my portfolio</p>
-    <div class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-3">
-      <div v-for="item in projects" class="bg-gray-100 shadow-lg rounded-lg overflow-hidden dark:bg-white/[.075]">
-        <img class="w-full h-56 object-cover object-center" :src="item.imageUrl" :alt="item.alt" fetchpriority="low" />
-        <div class="p-4">
-          <div class="my-2 flex">
-            <component :is="item.logo1.component" :alt="item.logo1.alt" />
-            <component :is="item.logo2.component" :alt="item.logo2.alt" class="mx-2" />
-            <component :is="item.logo3.component" :alt="item.logo3.alt" class="mr-2" />
-            <component :is="item.logo4.component" :alt="item.logo4.alt" />
-          </div>
-          <h3 class="text-xl font-semibold mb-2 dark:text-white">{{ item.name }}</h3>
-          <p class="text-gray-600 dark:text-gray-100">{{ item.description }}</p>
-          <div class="my-3">
-            <a :href="item.url" class="bg-blue-500 hover:bg-blue-400 px-3 py-2 rounded-lg dark:text-white" target="_blank" aria-label="My Project">Check The Project</a>
+  <section id="project">
+    <div class="block max-w-7xl py-28 mx-auto lg:text-xl">
+      <h2 class="text-2xl font-bold mb-4 text-center text-blue-500">My Project</h2>
+      <p class="text-center dark:text-white">Here is my portfolio</p>
+      <div class="grid grid-cols-1 gap-4 mt-8 md:grid-cols-2 lg:grid-cols-3">
+        <div v-for="item in projects" class="bg-gray-100 shadow-lg rounded-lg overflow-hidden dark:bg-white/[.075]">
+          <img class="w-full h-56 object-cover object-center" :src="item.imageUrl" :alt="item.alt" fetchpriority="low" />
+          <div class="p-4">
+            <div class="flex items-center justify-start my-2">
+              <component :is="item.logo1.component" :alt="item.logo1.alt" />
+              <component :is="item.logo2.component" :alt="item.logo2.alt" class="mx-2" />
+              <component :is="item.logo3.component" :alt="item.logo3.alt" class="mr-2" />
+              <component :is="item.logo4.component" :alt="item.logo4.alt" />
+            </div>
+            <h3 class="text-xl font-semibold mb-2 dark:text-white">{{ item.name }}</h3>
+            <p class="text-gray-600 dark:text-gray-100">{{ item.description }}</p>
+            <div class="flex items-center justify-start my-3">
+              <a :href="item.url" class="bg-blue-500 hover:bg-blue-400 px-3 py-2 rounded-lg dark:text-white" target="_blank" aria-label="My Project">Check The Project</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
