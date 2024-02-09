@@ -4,7 +4,7 @@
     <h1 class="mt-8 text-4xl font-extrabold text-gray-900 dark:text-gray-100">Oops! We're lost in space.</h1>
     <p class="mt-2 text-base text-gray-500 dark:text-gray-400">It seems we can't find the page you're looking for. Don't worry, our friendly astronaut is on the case!</p>
     <div class="mt-6">
-      <a class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-600 hover:bg-blue-500 focus:shadow-outline focus:outline-none" href="#">
+      <a class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-blue-600 hover:bg-blue-500 focus:shadow-outline focus:outline-none" href="/">
         Back to Home
       </a>
     </div>
