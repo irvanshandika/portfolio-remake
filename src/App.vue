@@ -6,4 +6,5 @@ import BackgroundLayout from "./layouts/BackgroundLayout.vue";
   <BackgroundLayout>
     <router-view />
   </BackgroundLayout>
+  <Script type="text/partytown" src="https://static.cloudflareinsights.com/beacon.min.js" />
 </template>
